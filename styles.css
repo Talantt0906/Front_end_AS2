@@ -1,0 +1,272 @@
+ body {
+    margin: 0;
+    padding: 0;
+}
+
+#task1 #header {
+    background-color:rgb(1, 216, 109);
+    padding:20px;
+    text-align: center;
+    
+}
+
+
+#task1 #navibar {
+    background-color: rgb(132, 231, 153);
+    padding:10px;
+    text-align: center;
+    
+    
+}
+
+#task1 #navibar a{
+    display:inline-block;
+    margin:0px 15px;
+    color:blueviolet;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    
+}
+
+#task1 #navibar a:hover{
+    background-color: green;
+    color:yellow;
+}
+
+#task1 #sidebar{
+    display:inline-block;
+    background-color:antiquewhite;
+    padding:20px;
+    width:400px;
+    margin: 20px;
+    border:groove;
+    
+}
+
+
+
+#task1 #main{
+    display:inline-block;
+    background-color: antiquewhite;
+    padding:40px;
+    width:1300px;
+    position:relative;
+    bottom:50px;
+    border:groove;
+}
+
+#task1 #footer{
+    position:relative;
+    top:300px;
+    background-color:rgb(1, 216, 109) ;
+    padding:50px;
+    text-align: center;
+    color:white;
+}
+
+
+
+
+
+
+
+#task2 #header{
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 10px;
+    color:white;
+    margin:0 0 20px 0;
+    
+}
+
+#task2 #main img{
+    max-width: 350px;
+    height: auto;
+    position: relative;
+    display:block;
+    margin: 0 auto;
+    border-radius: 100px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+#task2 #main{
+    text-align: center;
+    background-color: white;
+    max-width: 1000px;
+    margin:0 auto;
+    list-style-position: inside;
+
+    ol{ list-style-type: upper-roman;}
+    ul{ list-style-type: square;}
+
+}
+
+#task2 #main ol{
+    border: 10px dotted lightskyblue; 
+}
+
+#task2 #main ul{border: 10px dotted lightskyblue;}
+
+#task2 #main a{
+    color:blue;
+    text-decoration: none;
+    padding:4px;
+}
+
+
+#task2 #main a:hover{
+        color:aquamarine;
+        text-decoration: underline;
+    }
+
+
+#task2 #footer{
+    padding:25px;
+    background-color: lightskyblue;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+
+#task3 #header{
+    background-color: lightseagreen;
+    text-align: center;
+    padding:30px;
+    margin:0;
+}
+
+#task3 table{
+    border-collapse: collapse;
+    width:60%;
+    margin:20px auto;
+    text-align:center;
+}
+
+#task3 th{
+    background-color: lightseagreen;
+    border:1px solid black;
+    padding: 8px;
+}
+
+#task3 td{
+    border:1px solid black;
+    padding: 8px;
+}
+
+#task3 tr:nth-child(even){
+    background-color: lightpink;
+}
+
+.highlight-row{
+    background-color: yellow;
+}
+
+#task3 form{
+    width:300px;
+    margin:20 auto;
+    background-color: lightskyblue;
+    padding: 15PX;
+    border-radius: 8PX;
+}
+
+#task3 label{
+    font-weight: bold;
+}
+
+#task3 input[type="text"],
+input[type="email"],
+select,textarea{
+    width:95%;
+    margin-top:5px;
+    margin-bottom:10px;
+    padding:5px;
+}
+
+.submit-btm{
+    background-color:lightpink ;
+    padding:8 15px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.submit-btm:hover{
+    background-color: aqua;
+    color:white;
+}
+
+#task3 #footer{
+    margin-top:15px;
+    padding:15px;
+    background-color: lightseagreen;
+    text-align: center;
+    color: white;
+
+}
+
+#home #header{
+    padding: 30px;
+    text-align: center;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 40px;
+}
+
+#home #navibar{
+    display:block;
+    background-color: lightskyblue;
+    border-radius: 60px;
+    padding:20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#home #navibar a{
+    display:inline-block;
+    margin:0px 15px;
+    color:blueviolet;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+#home #navibar a:hover{
+    background-color: lightslategray;
+    color:violet;
+}
+
+#home #footer{
+    padding:25px;
+    background-color: lightskyblue;
+    text-align: center;
+    color: white;
+    margin-top: 600px;
+}
+
+
+#task4 #header{
+    padding: 30px;
+    text-align: center;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 40px;}
+
+#task4 img{
+  width:500px;   
+  height: auto;   
+  border-radius: 10px;
+}
+
+#task4 #box {
+  display: flex;        
+  gap: 15px;           
+  flex-wrap: wrap;      
+  justify-content: center; 
+  border: 2px solid #ccc;
+  margin: 5px;
+}
+
