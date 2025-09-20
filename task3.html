@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Table and Form T3</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body id="task3">
+
+        <h1 id="header">Student Grades</h1>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Zhalgas</td>
+                <td>History</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>B+</td>
+            </tr>
+            <tr >
+                <td>Miras</td>
+                <td>Linear algebra</td>
+                <td>A-</td>
+            </tr>
+            <tr class="highlight-row">
+                <td>Aidos</td>
+                <td colspan="2">Absent</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Talant</td>
+                <td>Russian</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Aibar</td>
+                <td>English</td>
+                <td>B-</td>
+            </tr>
+        </table>
+
+        <h2 style="text-align: center;">Feedback Form</h2>
+
+    
+        <form style="margin:auto">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="role">Role:</label><br>
+            <select id="role" name="role">
+                <option>Student</option>
+                <option>Teacher</option>
+                <option>Other</option>
+            </select><br><br>
+
+            <label>Do you like this Website?</label><br>
+            <input type="radio" id="yes" name="like" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="like" value="yes">
+            <label for="no">No</label><br><br>
+
+            <lable for="comments">Comments:</lable><br>
+            <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
+
+            <input type="submit" value="Submit" class="submit-btm">
+        </form>
+
+        <div id="footer">
+            <p>&copy; 2025 My Website||Altaikan Talant SE-2434</p>
+        </div>
+    
+
+    </body>
+</html>
